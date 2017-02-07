@@ -12,13 +12,15 @@ package taller.pkg1;
 public class Punto1 {
     public static void main(String[] args) {
         java.util.Scanner Lectura = new java.util.Scanner(System.in);
-        float Largo = Lectura.nextFloat();
-        float Ancho = Lectura.nextFloat();
+        System.out.print("Ingrese el largo de la piel de buey: ");
+        double Largo = Lectura.nextDouble();
+        System.out.print("Ingrese el ancho de la piel de buey: ");
+        double Ancho = Lectura.nextDouble();
         
-        System.out.print(Largo+" "+Ancho);
+        double Hilo = Largo*Ancho; //Largo del hilo en kilometros
+        double Radio = Hilo/(2*3.1416); //Radio de la circunferencia creada con el hilo
+        double Area = 3.1416*Radio*Radio; //Area de la circunferencia creada con el hilo
         
-        
-        
-        
+        System.out.println("El area del circulo creado con la piel del buey es de: "+Area+"km cuadrados");
     }
 }
