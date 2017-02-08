@@ -9,7 +9,7 @@ package taller.pkg1;
  *
  * @author Estudiante
  */
-public class Taller1 {
+public class SumaVectores {
 
     public static void main(String[] args) {
         java.util.Scanner Lectura = new java.util.Scanner(System.in);
