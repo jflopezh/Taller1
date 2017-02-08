@@ -13,7 +13,7 @@ public class Taller1 {
 
     public static void main(String[] args) {
         java.util.Scanner Lectura = new java.util.Scanner(System.in);
-        System.out.print("Ingrese el tamao de los vectores a sumar ");
+        System.out.print("Ingrese el tamano de los vectores a sumar ");
         int Tamaño = Lectura.nextInt();
         
         int[] Vector1 = new int[Tamaño];

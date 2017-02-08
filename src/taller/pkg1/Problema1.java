@@ -9,7 +9,7 @@ package taller.pkg1;
  *
  * @author Estudiante
  */
-public class Punto1 {
+public class Problema1 {
     public static void main(String[] args) {
         java.util.Scanner Lectura = new java.util.Scanner(System.in);
         System.out.print("Ingrese el largo de la piel de buey: ");
